@@ -67,7 +67,7 @@ header > p{
 section > p{
     padding-bottom: 2em;
 }
-
+/*box-shadow: inset (Sombra de dentro para fora)*/
  section.imagem{
     background-color: rgb(59, 59, 59);
     color: white;
