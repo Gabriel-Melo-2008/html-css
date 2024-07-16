@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
     <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
         table{
             border-collapse:collapse ;
+        }
+        thead, .med{
+            background-color: gray;
+            color: white;
         }
 
         th, td{
             border: 1px solid black;
             padding: 10px;
         }
-
-        th{
-            background-color: rgb(102, 102, 102);
-            color: white;
-        }
-        .branco{
-            background-color: white;
-            color: black;
+        .materia{
             font-weight: lighter;
         }
     </style>
@@ -41,54 +41,52 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4" class="branco">Exatas</th>
-                <th class="branco">Matemática</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th rowspan="4">Exatas</th>
+                <th class="materia">Matemática</th>
+                <td>10,0</td>
+                <td>10,0</td>
+                <td>10,0</td>
             </tr>
             <tr>
-                <th class="branco">Física</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th class="materia">Física</th>
+                <td>8,0</td>
+                <td>8,0</td>
+                <td>8,0</td>
             </tr>
             <tr>
-                <th class="branco">Quimica</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th class="materia">Quimica</th>
+                <td>9,0</td>
+                <td>9,0</td>
+                <td>9,0</td>
             </tr>
             <tr>
-                <th class="branco">Biologia</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th class="materia">Biologia</th>
+                <td>7,0</td>
+                <td>7,0</td>
+                <td>7,0</td>
             </tr>
             <tr>
-                <th colspan="4">Média de Exatas</th>
+                <th colspan="4" class="med" >Média de Exatas </th>
+                <td class="med">8,5</td>
+            </tr>
 
-                <td></td>
-            </tr>
-
-            <th class="branco" rowspan="3">Humanas</th>
+            <th rowspan="3">Humanas</th>
 
             <tr>
-                <th class="branco">História</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th class="materia" >História</th>
+                <td>8,0</td>
+                <td>8,0</td>
+                <td>8,0</td>
             </tr>
             <tr>
-                <th class="branco">Geografia</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th class="materia">Geografia</th>
+                <td>8,0</td>
+                <td>8,0</td>
+                <td>8,0</td>
             </tr>
             <tr>
-                <th colspan="4">Média de Humanas</th>
-                
-                <td></td>
+                <th colspan="4" class="med">Média de Humanas</th>
+                <td class="med">8,0</td>
             </tr>
         </tbody>
     </table>
