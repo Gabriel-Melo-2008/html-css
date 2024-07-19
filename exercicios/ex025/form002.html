@@ -7,17 +7,36 @@
 </head>
 <body>
     <h1>Teste de Formulario</h1>
+
     <form action="cadastro.php" method="post" autocomplete="off">
         <p>
+            <!--label faz com que a palavra no caso tenha relação com o input;
+
+            <input type="text"> diz que é para digitar algo do tipo caractere;
+            
+            required faz com que tenha que preencher o espaço obrigatoriamente;
+            
+            minlength="X" minimo de caracteres;
+            
+            maxlength="X" maximo de caracteres;
+            
+            placeholder palavra que va aparecerno campo auutomaticamente-->
             <label for="iusu">Usuario</label>
             <input type="text" name="s=usu" id="iusu" required minlength="5" maxlength="15" placeholder="nome do usuario">
         </p>
+        <!-- <input type="passoword"> diz que é para digitar algo do tipo Senha logo quando digitar algo não aparecera;
+         
+        size tamanho do quadro de senha-->
         <p>
             <label for="isen">Senha</label>
             <input type="password" name="sen" id="isen" required minlength="8" maxlength="9" size="10">
         </p>
+        <!--submit enviar
+            reset apagar-->
+
         <p><input type="submit" value="Enviar">
         <input type="reset" value="Limpar"></p>
     </form>
+ 
 </body>
 </html>
